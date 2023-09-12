@@ -15,7 +15,7 @@ elif (op == '*'):
     v1 * v2
     print(v1 * v2)
 elif (op == '/'):
-    v1 / v2
+    v1 // v2
     print(v1 // v2)
 
 

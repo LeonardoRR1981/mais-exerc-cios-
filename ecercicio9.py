@@ -1,13 +1,12 @@
-lado1 = int(input('Digite um valor: '))
-lado2 = int(input('Digite um valor: '))
-lado3 = int(input('Digite um valor: '))
-if(lado1 == 0 and lado2 ==0 and lado3 == 0):
- if(lado1 + lado2 > lado3 or lado1 + lado3 > lado2 or lado2 + lado3 > lado1):
-   print('Algo deu errado!!!!')
-elif(lado1 == lado2 and lado2 == lado3):
-   print('Triangulo Equilátero')
-elif(lado1 != lado2 != lado3):
-   print('Triangulo Escaleno')
+A = int(input('Digite um valor: '))
+B = int(input('Digite um valor: '))
+C= int(input('Digite um valor: '))
+
+if (A == 0 and B ==0 and C == 0):
+   if ((A + B > C) and (A + C > B) and ( B + C > A)):
+
+   else:
+     print('Algo deu errado')
+
 else:
-    print('Triangulo Isóceles')
-  
+   print('Algo deu erado')
